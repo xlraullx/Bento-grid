@@ -1,0 +1,8 @@
+:root{
+    --background: hsl(0, 0%, 96%);
+    --n1-light-color: hsl(31, 66%, 93%);
+    --n1-strong-color:hsl(39, 100%, 71%);    
+    --n2-light-color: hsl(254, 88%, 90%);
+    --n2-strong-color: hsl(256, 67%, 59%);
+    --white: hsl(0, 0%, 100%);
+}
