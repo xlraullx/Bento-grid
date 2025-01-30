@@ -21,11 +21,11 @@ main{
 
 .container{
     display: grid;
-    grid-template: repeat(3,auto) / repeat(4,auto);
+    grid-template-rows: 325px 250px 250px;
     gap: 30px;
 }
 
-.div1{
+.create-content-quicker{
     grid-area: 1 / 1 / 3 / 2;
     background-color: var(--n1-light-color);
     width: 255px;
@@ -56,11 +56,10 @@ main{
     margin-top: 25px;
 }
 
-.div2{
+.social-media-reviews{
     grid-area: 1 / 2 / 2 / 4;
     background-color: var(--n2-strong-color);
     width: 545px;
-    height: 325px;
     border-radius: 10px;
 }
 
@@ -96,13 +95,11 @@ main{
     font-size: 1.7rem;
 }
 
-.div3{
+.Optimize-post{
     grid-area: 1 / 4 / 3 / 5;
     background-color: var(--n2-light-color);
     width: 260px;
-    height: 600px;
     border-radius: 10px;
-    position: relative;
 }
 
 .schedule-social-media{
@@ -117,7 +114,7 @@ main{
     padding: 30px 0 30px 30px;
 }
 
-.schedule-social-media :last-child{
+.schedule-social-media :nth-last-child(1){
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: normal;
@@ -131,11 +128,11 @@ main{
     object-position: 0 0;
 }
 
-.div4{
+.write-content-ai{
     grid-area: 2 / 1 / 4 / 2;
     background-color: var(--n1-strong-color);
     width: 260px;
-    height: 435px;
+    margin-top: calc(65px + 30px);
     border-radius: 10px;
 }
 
@@ -155,18 +152,19 @@ main{
     height: 220px;
 }
 
-.div5{
+.manage-acounts{
     grid-area: 2 / 2 / 3 / 3;
+    background-color: blue;
 }
 
-.div6{
+.consistent-posting{
     grid-area: 2 / 3 / 3 / 4;
 }
 
-.div7{
+.consistent-posting{
     grid-area: 3 / 2 / 3 / 3;
 }
 
-.div8{
+.non-stop-content{
     grid-area: 3 / 3 / 4 / 5;
 }
