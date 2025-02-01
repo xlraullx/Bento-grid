@@ -141,30 +141,120 @@ main{
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: 25px;
+    padding: 25px 15px 25px 25px;
     letter-spacing: -2px;
     font-size: 4rem;
     font-weight: 550;
     line-height: 35px;
 }
 
-.ai-content img{
-    height: 220px;
+.ai-content :nth-child(1){
+    margin-right: 25px;
 }
 
-.manage-acounts{
+.manage-multiple-acounts{
     grid-area: 2 / 2 / 3 / 3;
-    background-color: blue;
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 260px;
+}
+
+.manage-multiple-acounts-about img{
+    height: 68px;
+    object-fit: cover;
+    object-position: 0%;
+    box-shadow: -15px 5px 20px rgba(201, 198, 198, 0.123);
+}
+
+.manage-multiple-acounts-about{
+    padding: 25px 0px 0px 25px;
+    height: 100%;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: -1px;
+    font-size: 3rem;
+}
+
+.manage-multiple-acounts-about p{
+    margin-top: 20px;
+}
+
+.manage-multiple-acounts-about :nth-last-child(1){
+    margin-right: 25px;
 }
 
 .consistent-posting{
     grid-area: 2 / 3 / 3 / 4;
+    width: 260px;
+    background-color: var(--n1-strong-color);
+    border-radius: 10px;
 }
 
-.consistent-posting{
-    grid-area: 3 / 2 / 3 / 3;
+.consistent-posting-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 25px 0;
+    font-weight: 600;
+    height: 100%;
+    line-height: 28px;
+    letter-spacing: -1px;
+    font-size: 3rem;
+}
+
+.consistent-posting-about img{
+    height: 95px;
+    width: 250px;
+    object-fit: cover;
+    object-position: 0 0px;
+}
+
+.audience-growth{
+    grid-area: 3 / 2 / 4 / 3;
+    background-color: var(--white);
+    width: 260px;
+    border-radius: 10px;
+}
+
+.audience-growth-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 25px 25px;
+    height: 100%;
+    letter-spacing: -1px;
+    font-size: 2rem;
+}
+
+.audience-growth-about p strong{
+    font-size: 6rem;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.audience-growth-about img{
+    width: 180px;
 }
 
 .non-stop-content{
     grid-area: 3 / 3 / 4 / 5;
+    background-color: var(--n2-strong-color);
+    width: 550px;
+    border-radius: 10px;
+}
+
+.non-stop-content-about{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 10px;
+    color: var(--white);
+    line-height: 35px;
+    font-size: 4rem;
+    padding: 25px;
+
+}
+
+.non-stop-content-about img{
+    width: 230px;
 }
