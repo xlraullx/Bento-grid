@@ -232,6 +232,11 @@ main{
     margin-right: 10px;
 }
 
+.audience-growth-about span{
+    display: inline-block;
+    transform: translateY(-6px);   
+}
+
 .audience-growth-about img{
     width: 180px;
 }
