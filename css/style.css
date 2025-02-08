@@ -33,7 +33,7 @@ main{
     border-radius: 10px;
 }
 
-.about-post{
+.content_quicker_about{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,24 +46,24 @@ main{
     font-weight: 500;
 }
 
-.about-post span{
+.content_quicker_about span{
     color: var(--n2-strong-color);
     font-style: italic;
     font-weight: 500;
 }
 
-.about-post img{
+.content_quicker_about img{
     margin-top: 25px;
 }
 
 .social-media-reviews{
     grid-area: 1 / 2 / 2 / 4;
     background-color: var(--n2-strong-color);
-    width: 545px;
+    width: 550px;
     border-radius: 10px;
 }
 
-.about-review{
+.about_review{
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -76,33 +76,33 @@ main{
     font-weight: 600;
 }
 
-.about-review strong{
+.about_review strong{
     color: var(--n1-strong-color);
 }
 
-.about-review span{
+.about_review span{
     font-style: italic;
 }
 
-.about-review img{
+.about_review img{
     translate: 0px 25px;
     width: 35%;
 }
 
-.about-review :nth-child(3){
+.about_review :nth-child(3){
     font-weight: 500;
     translate: 0px 15px;
     font-size: 1.7rem;
 }
 
-.Optimize-post{
+.optimize-post{
     grid-area: 1 / 4 / 3 / 5;
     background-color: var(--n2-light-color);
     width: 260px;
     border-radius: 10px;
 }
 
-.schedule-social-media{
+.optimize_post_about{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -114,7 +114,7 @@ main{
     padding: 30px 0 30px 30px;
 }
 
-.schedule-social-media :nth-last-child(1){
+.optimize_post_about :nth-last-child(1){
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: normal;
@@ -122,7 +122,7 @@ main{
     margin-right: 30px;
 }
 
-.schedule-social-media img{ 
+.optimize_post_about img{ 
     height: 320px;
     object-fit: cover;
     object-position: 0 0;
@@ -136,7 +136,7 @@ main{
     border-radius: 10px;
 }
 
-.ai-content{
+.ai_content{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -148,25 +148,25 @@ main{
     line-height: 35px;
 }
 
-.ai-content :nth-child(1){
+.ai_content :nth-child(1){
     margin-right: 25px;
 }
 
-.manage-multiple-acounts{
+.manage-multiple-accounts{
     grid-area: 2 / 2 / 3 / 3;
     background-color: var(--white);
     border-radius: 10px;
     width: 260px;
 }
 
-.manage-multiple-acounts-about img{
+.manage_accounts_about img{
     height: 68px;
     object-fit: cover;
     object-position: 0%;
     box-shadow: -15px 5px 20px rgba(201, 198, 198, 0.123);
 }
 
-.manage-multiple-acounts-about{
+.manage_accounts_about{
     padding: 25px 0px 0px 25px;
     height: 100%;
     font-weight: 600;
@@ -175,11 +175,11 @@ main{
     font-size: 3rem;
 }
 
-.manage-multiple-acounts-about p{
+.manage_accounts_about p{
     margin-top: 20px;
 }
 
-.manage-multiple-acounts-about :nth-last-child(1){
+.manage_accounts_about :nth-last-child(1){
     margin-right: 25px;
 }
 
@@ -190,7 +190,7 @@ main{
     border-radius: 10px;
 }
 
-.consistent-posting-about{
+.consistent_posting_about{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -202,7 +202,7 @@ main{
     font-size: 3rem;
 }
 
-.consistent-posting-about img{
+.consistent_posting_about img{
     height: 95px;
     width: 250px;
     object-fit: cover;
@@ -216,7 +216,7 @@ main{
     border-radius: 10px;
 }
 
-.audience-growth-about{
+.audience_growth_about{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -226,18 +226,18 @@ main{
     font-size: 2rem;
 }
 
-.audience-growth-about p strong{
+.audience_growth_about p strong{
     font-size: 6rem;
     font-weight: 600;
     margin-right: 10px;
 }
 
-.audience-growth-about span{
+.audience_growth_about span{
     display: inline-block;
     transform: translateY(-6px);   
 }
 
-.audience-growth-about img{
+.audience_growth_about img{
     width: 180px;
 }
 
@@ -248,7 +248,7 @@ main{
     border-radius: 10px;
 }
 
-.non-stop-content-about{
+.non_stop_content_about{
     display: flex;
     height: 100%;
     align-items: center;
@@ -257,9 +257,8 @@ main{
     line-height: 35px;
     font-size: 4rem;
     padding: 25px;
-
 }
 
-.non-stop-content-about img{
+.non_stop_content_about img{
     width: 230px;
 }
