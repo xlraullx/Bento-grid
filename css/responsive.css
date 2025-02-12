@@ -7,7 +7,8 @@
 
     .container{
         display: grid;
-        grid-template-rows: 325px 250px 250px 250px 250px 300px;
+        grid-template-rows: 325px repeat(4,250px) 300px;
+        grid-template-columns: repeat(2,260px);
         gap: 30px;
     }
     
@@ -29,7 +30,6 @@
 
     .write-content-ai{
         grid-area: 4 / 1 / 5 / 3;
-        width: 550px;
         margin-top: auto;
     }
     
@@ -54,7 +54,6 @@
     .create-content-quicker{
         grid-area: 6 / 1;
         height: auto;
-        width: 260px;
     }
 
     .content_quicker_about{
@@ -75,11 +74,8 @@
     .container{
         display: grid;
         grid-template-rows: 290px 165px 220px 470px 370px 220px 235px 355px;
+        grid-template-columns: 345px;
         gap: 30px;
-    }
-
-    .social-media-reviews, .manage-multiple-accounts, .consistent-posting, .optimize-post, .non-stop-content, .audience-growth, .create-content-quicker,.write-content-ai{
-        width: 345px;
     }
 
     .social-media-reviews{
