@@ -39,7 +39,8 @@ main{
     align-items: center;
     flex-flow: column;
     height: 100%;
-    padding: 30px;
+    padding: 35px;
+    gap: 25px;
     line-height: 35px;
     font-size: 4rem;
     letter-spacing: -2px;
@@ -50,10 +51,6 @@ main{
     color: var(--n2-strong-color);
     font-style: italic;
     font-weight: 500;
-}
-
-.content_quicker_about img{
-    margin-top: 25px;
 }
 
 .social-media-reviews{
@@ -92,7 +89,7 @@ main{
 .about_review :nth-child(3){
     font-weight: 500;
     translate: 0px 15px;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 
 .optimize-post{
