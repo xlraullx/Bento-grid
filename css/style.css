@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'DMSans';
-    src: url(/src/assets/fonts/DMSans-VariableFont_opsz\,wght.ttf), url(/src/assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf), url(/src/assets/fonts/static/DMSans-Medium.ttf),url(/src/assets/fonts/static/DMSans-MediumItalic.ttf),url(/src/assets/fonts/static/DMSans-Regular.ttf);
+    src: url(../src/assets/fonts/DMSans-VariableFont_opsz\,wght.ttf), url(../src/assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf), url(../src/assets/fonts/static/DMSans-Medium.ttf),url(../src/assets/fonts/static/DMSans-MediumItalic.ttf),url(../src/assets/fonts/static/DMSans-Regular.ttf);
 }
 
 html{
